@@ -19,7 +19,7 @@ app.use("/booking", bookingsRouter);
 
 mongoose
   .connect(
-    `mongodb+srv://rovindumanawaduge:${process.env.MONGODB_PASSWORD}@cluster0.pq0kw.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://rovindumanawaduge:rovindu1@cluster0.ljbiltx.mongodb.net/?retryWrites=true&w=majority`
   )
   .then(() =>
     app.listen(5000, () =>
